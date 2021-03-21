@@ -1,0 +1,81 @@
+/**************
+* LOCATION
+***************/
+.location {
+  padding: 100px 0;
+  background-image: url(../image/castelhanos.jpg);
+  background-size: cover;
+  vertical-align: middle;
+}
+.location .container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+.location .container .end {
+  display: flex;
+  justify-content: space-between;
+  background-color: #304fa7bd;
+  padding: 30px 0px;
+  width: 100%;
+}
+.location .container .end .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.location .container .end .info .icon img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 30%;
+  height: 30%;
+  margin-right: 15px;
+}
+.location .container .end .info .icon img:first-child {
+  margin-left: 25%;
+  margin-right: 0;
+}
+.location .container .end .info .text span {
+  display: block;
+  font-size: 90%;
+  padding: 0px;
+  margin-left: -25%;
+}
+.location .container .end .info .text span:first-child {
+  color: silver;
+}
+.location .container .end .info .text span:last-child {
+  color: white;
+}
+.location .container .map {
+  width: 100%;
+}
+.location .container .map iframe {
+  width: 100%;
+}
+
+#icon-whats {
+  height: 7vh;
+  width: 7vh;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  box-shadow: 0 0 10px black;
+  border-radius: 100%;
+}
+
+.footer {
+  width: 100%;
+  background-color: #292828;
+  color: whitesmoke;
+  height: 40px;
+  font-size: 15px;
+}
+.footer img {
+  width: 30px;
+  border-radius: 100%;
+  margin: 5px 0 0 10px;
+}/*# sourceMappingURL=corpo.css.map */

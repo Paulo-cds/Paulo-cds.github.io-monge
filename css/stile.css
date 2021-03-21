@@ -1,0 +1,59 @@
+.mobile {
+    display: none;
+}
+
+.menuMobile {
+    position: absolute;
+    top: -100%;
+    right: -100%;
+    width: 100px;
+    height: fit-content;
+    background-color: rgba(71, 70, 70, 0.774);
+    border-radius: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 90%;
+    color: rgb(8, 8, 8);
+    transition: all 800ms ease;
+}
+
+.menuMobile li {
+    text-align: justify;
+    width: 15px;
+    padding: 5px;
+    margin: 1px solid black;
+}
+
+.menuMobile a {
+    color: rgb(8, 8, 8);
+    padding: 3px;
+}
+
+.menuMobile a:hover {
+    background: black;
+    margin: 1px solid cornsilk;
+    border-radius: 5px;
+    color: white;
+}
+
+.menuMobile.aberto {
+    top: 50px;
+    right: 10px;
+    text-align: justify;
+}
+
+.botaoMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.botaoMenu:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hamburguer {
+    width: 30px;
+    background-color: rgba(71, 70, 70, 0.774);
+}

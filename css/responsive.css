@@ -1,0 +1,9 @@
+@media (max-width: 900px) {
+  .head .cabeca .menu {
+    display: none;
+  }
+
+  .botaoMenu, .mobile {
+    display: block;
+  }
+}/*# sourceMappingURL=responsive.css.map */
